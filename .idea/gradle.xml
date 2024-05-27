@@ -5,17 +5,27 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/application" />
             <option value="$PROJECT_DIR$/sources" />
             <option value="$PROJECT_DIR$/sources/library01" />
+            <option value="$PROJECT_DIR$/sources/library01/api" />
+            <option value="$PROJECT_DIR$/sources/library01/impl" />
             <option value="$PROJECT_DIR$/sources/library02" />
+            <option value="$PROJECT_DIR$/sources/library02/api" />
+            <option value="$PROJECT_DIR$/sources/library02/impl" />
             <option value="$PROJECT_DIR$/sources/library03" />
+            <option value="$PROJECT_DIR$/sources/library03/api" />
+            <option value="$PROJECT_DIR$/sources/library03/impl" />
             <option value="$PROJECT_DIR$/sources/library04" />
+            <option value="$PROJECT_DIR$/sources/library04/api" />
+            <option value="$PROJECT_DIR$/sources/library04/impl" />
             <option value="$PROJECT_DIR$/sources/library05" />
+            <option value="$PROJECT_DIR$/sources/library05/api" />
+            <option value="$PROJECT_DIR$/sources/library05/impl" />
           </set>
         </option>
       </GradleProjectSettings>
