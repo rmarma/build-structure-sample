@@ -1,12 +1,13 @@
 # Структура модулей
 
-## Вариант 2
+## Вариант 3
 
-Первый вариант с разделением на `api/impl`.
+Второй вариант с разделением на `api/impl`, где запрещено `api` зависеть от `api`.
+Особенность данного варианта в том, что максимальная глубина зависимостей всегда будет **2**.
 
 Количество модулей: 11`*`  
-Глубина зависимостей: 6 `application -> library01:impl -> library01:api -> library02:api -> library03:api -> library04:api -> library05:api`  
-Связей между модулями: 35
+Глубина зависимостей: 2 `application -> library01:impl -> library01:api`  
+Связей между модулями: 25
 
 `*` без учёта модулей `source/library`.
 
@@ -36,10 +37,6 @@
 ```
 ```
 +--- project :sources:library01:api
-     +--- project :sources:library02:api
-     +--- project :sources:library03:api
-     +--- project :sources:library04:api
-     \--- project :sources:library05:api
 ```
 ```
 +--- project :sources:library02:impl
@@ -50,9 +47,6 @@
 ```
 ```
 +--- project :sources:library02:api
-     +--- project :sources:library03:api
-     +--- project :sources:library04:api
-     \--- project :sources:library05:api
 ```
 ```
 +--- project :sources:library03:impl
@@ -62,8 +56,6 @@
 ```
 ```
 +--- project :sources:library03:api
-     +--- project :sources:library04:api
-     \--- project :sources:library05:api
 ```
 ```
 +--- project :sources:library04:impl
@@ -72,7 +64,6 @@
 ```
 ```
 +--- project :sources:library04:api
-     \--- project :sources:library05:api
 ```
 ```
 +--- project :sources:library05:impl

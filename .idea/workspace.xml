@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc059f5b-6dfe-4eb8-acd7-cfb706fa3c78" name="Changes" comment="variant1" />
+    <list default="true" id="dc059f5b-6dfe-4eb8-acd7-cfb706fa3c78" name="Changes" comment="variant2">
+      <change afterPath="$PROJECT_DIR$/sources/library01/api/src/main/java/ru/rma/library01/Library01Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/library01/impl/src/main/java/ru/rma/library01/Library01MediatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/library02/api/src/main/java/ru/rma/library02/Library02Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/library02/impl/src/main/java/ru/rma/library02/Library02MediatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/library03/api/src/main/java/ru/rma/library03/Library03Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/library03/impl/src/main/java/ru/rma/library03/Library03MediatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/library04/api/src/main/java/ru/rma/library04/Library04Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/library04/impl/src/main/java/ru/rma/library04/Library04MediatorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/ru/rma/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/ru/rma/app/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/graph.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/graph.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/library01/api/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/sources/library01/api/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/library01/api/src/main/java/ru/rma/library01/Library01.java" beforeDir="false" afterPath="$PROJECT_DIR$/sources/library01/api/src/main/java/ru/rma/library01/Library01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/library01/impl/src/main/java/ru/rma/library01/Library01Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sources/library01/impl/src/main/java/ru/rma/library01/Library01Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/library02/api/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/sources/library02/api/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/library02/api/src/main/java/ru/rma/library02/Library02.java" beforeDir="false" afterPath="$PROJECT_DIR$/sources/library02/api/src/main/java/ru/rma/library02/Library02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/library02/impl/src/main/java/ru/rma/library02/Library02Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sources/library02/impl/src/main/java/ru/rma/library02/Library02Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/library03/api/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/sources/library03/api/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/library03/api/src/main/java/ru/rma/library03/Library03.java" beforeDir="false" afterPath="$PROJECT_DIR$/sources/library03/api/src/main/java/ru/rma/library03/Library03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/library03/impl/src/main/java/ru/rma/library03/Library03Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sources/library03/impl/src/main/java/ru/rma/library03/Library03Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/library04/api/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/sources/library04/api/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/library04/api/src/main/java/ru/rma/library04/Library04.java" beforeDir="false" afterPath="$PROJECT_DIR$/sources/library04/api/src/main/java/ru/rma/library04/Library04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/library04/impl/src/main/java/ru/rma/library04/Library04Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sources/library04/impl/src/main/java/ru/rma/library04/Library04Impl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,14 +45,32 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="build-structure-sample" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="variant2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -39,15 +82,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.build-structure-sample:application [:application:App.main()].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;variant2&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/m.a.romanov/Developer/IdeaProjects/build-structure-sample/img&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.build-structure-sample:application [:application:App.main()].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "variant3",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/m.a.romanov/Developer/IdeaProjects/build-structure-sample/img"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
