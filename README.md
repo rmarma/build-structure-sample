@@ -51,4 +51,4 @@
 
 1. [Первый вариант](https://github.com/rmarma/build-structure-sample/blob/main/README.md) - исходный проект, в котором наибольшая взаимосвязь между модулями и кодом;
 2. [Второй вариант](https://github.com/rmarma/build-structure-sample/blob/variant2/README.md) - это первый вариант, но где `api` и `impl` вынесены в отдельные модули. При этом запрещено `impl` зависеть от `impl`;
-3. [Третий вариант](https://github.com/rmarma/build-structure-sample/blob/variant3/README.md) - это второй, только дополниельно запрещено `api` зависеть от `api`.
+3. [Третий вариант](https://github.com/rmarma/build-structure-sample/blob/variant3/README.md) - это второй, только дополнительно запрещено `api` зависеть от `api`.
